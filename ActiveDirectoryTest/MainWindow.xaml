@@ -1,0 +1,32 @@
+﻿<Window x:Class="ActiveDirectoryTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Active Directory" Height="457.462" Width="392.164" Loaded="Window_Loaded_1" Icon="System.ico">
+    <Grid>
+        <Button x:Name="button1" Content="Add User" HorizontalAlignment="Left" Margin="151,388,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <TextBox x:Name="textboxSamAccountName" HorizontalAlignment="Left" Height="22" Margin="124,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" TabIndex="5"/>
+        <TextBox x:Name="textboxAdminUsername" HorizontalAlignment="Left" Height="22" Margin="124,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" TabIndex="1"/>
+        <PasswordBox x:Name="passwordboxAdminPassword" HorizontalAlignment="Left" Height="22" Margin="124,45,0,0" VerticalAlignment="Top" Width="153" TabIndex="2"/>
+        <Label Content="Admin User:" HorizontalAlignment="Left" Margin="40,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Admin Pass:" HorizontalAlignment="Left" Margin="40,43,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Name: " HorizontalAlignment="Left" Margin="67,211,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="54,184,0,0" VerticalAlignment="Top" Width="61"/>
+        <TextBox x:Name="textboxOu" HorizontalAlignment="Left" Height="33" Margin="74,76,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="295" FontSize="10" TabIndex="3"/>
+        <Label Content="Directory: " HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top"/>
+        <Label Content="SamAccountName: " HorizontalAlignment="Left" Margin="5,156,0,0" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="textboxName" HorizontalAlignment="Left" Height="23" Margin="124,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" TabIndex="7"/>
+        <TextBox x:Name="textboxGivenName" HorizontalAlignment="Left" Height="23" Margin="124,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" TabIndex="8"/>
+        <TextBox x:Name="textboxSurname" HorizontalAlignment="Left" Height="24" Margin="124,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" TabIndex="9"/>
+        <Label Content="GivenName: " HorizontalAlignment="Left" Margin="40,238,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Surname: " HorizontalAlignment="Left" Margin="54,265,0,0" VerticalAlignment="Top" Width="61"/>
+        <TextBox x:Name="textboxDescription" HorizontalAlignment="Left" Height="22" Margin="124,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" TabIndex="11"/>
+        <Label Content="Description: " HorizontalAlignment="Left" Margin="42,322,0,0" VerticalAlignment="Top" Width="73"/>
+        <RadioButton x:Name="radiobuttonEnable" Content="Enable User" HorizontalAlignment="Left" Margin="148,358,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <PasswordBox x:Name="passwordboxUserPass" HorizontalAlignment="Left" Height="24" Margin="124,186,0,0" VerticalAlignment="Top" Width="150" TabIndex="6"/>
+        <TextBox x:Name="textboxLonOnName" HorizontalAlignment="Left" Height="22" Margin="124,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" TabIndex="4"/>
+        <Label Content="Logon Name:" HorizontalAlignment="Left" Margin="33,126,0,0" VerticalAlignment="Top" Width="86"/>
+        <TextBox x:Name="textboxDisplayName" HorizontalAlignment="Left" Height="24" Margin="124,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" TabIndex="10"/>
+        <Label Content="Display Name:" HorizontalAlignment="Left" Margin="29,293,0,0" VerticalAlignment="Top" Width="86"/>
+
+    </Grid>
+</Window>
